@@ -1,0 +1,21 @@
+{
+  "namespace": "com.lucas.culture.adapter.in.kafka.schema",
+  "type": "record",
+  "name": "UserAvroSchema",
+  "fields": [
+    {
+      "name": "name",
+      "type": "string",
+      "avro.java.string": "String"
+    },
+    {
+      "name": "email",
+      "type": "string",
+      "avro.java.string": "String"
+    },{
+       "name": "password",
+       "type": "string",
+       "avro.java.string": "String"
+    }
+  ]
+}
